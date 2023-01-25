@@ -1,0 +1,26 @@
+extends base
+
+block _head
+ link(rel="stylesheet", href="/css/profile.css")
+ link(rel="icon", href="/img/icons/send.png", type="image/x-icon")
+
+block content
+    .alert-window    
+    header
+     
+      nav.nav
+        p.welcome-msg Welcome to Express Login system
+        button.logout
+          | logout
+         
+    .container
+      .profile-card
+        .profile-container
+          img.profile(src=`/img/profiles/${user.profile}`)
+        form.acc-form(action='/upload' method='post', enctype='multipart/form-data')
+          .file-div
+            | Upload new profile
+            input#photo(type="file", name="photo", class="hide_file")
+          button.upload-btn Upload
+        .center-name-field
+          h1.name Hai, #{user.name.split(' ')[0]}

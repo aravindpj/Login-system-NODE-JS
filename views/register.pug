@@ -1,0 +1,22 @@
+extends base
+block content 
+    .alert-window
+    .container
+      .register--window
+        p.login-heading Sign Up
+        p.welcome-text Create your account
+        button.gLogin-btn
+          img.gLogo(src='/img/icons/icons8-google.svg')
+          p Sign up with google
+        hr.line
+        form.login--form.signup--form
+          label(for="name") Name
+          input#name.inp.signup-name(type="text", placeholder="Jhonas schedman")
+          label(for="email") Email
+          input#email.inp.signup-email(type="email",  placeholder="E.g. jhonas@gmail.com")
+          label(for="password") Password
+          input#password.inp.signup-password(type="password",  placeholder="Enter your password")
+          label(for="confirmpassword") Confirm Password
+          input#confirmpassword.inp.signup-confirmpassword(type="password",  placeholder="Confirm your password")
+          a.forgot--password.link(href="/") Back to login 
+        button.login--btn.signup-btn Sign Up

@@ -1,0 +1,28 @@
+extends base
+
+block content 
+  .alert-window
+
+  .container
+    .login--window
+      p.login-heading Login
+      p.welcome-text Hi,welcome back
+  
+      button.gLogin-btn
+        img.gLogo(src='/img/icons/icons8-google.svg')
+        p Login with google
+      hr.line
+        
+      form.login--form
+        label(for="email") Email
+        input#email.inp.login-email(type="email", placeholder="E.g. jhonas@gmail.com")
+        label(for="password") Password
+        input#password.inp.login-password(type="password", placeholder="Enter your password")
+  
+      a.forgot--password.link(href="/forgotpassword") Forgot Password ?
+        
+      button.login--btn.login Login
+        
+  
+      p.createAccount-text Not registerd yet ?
+        a.createAccount(href="/register") Create an account
