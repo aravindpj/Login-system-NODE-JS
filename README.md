@@ -7,7 +7,7 @@ Login system is the web application build in ExpressJS,JavaScript and pug templa
   - user can reset password 
   - user can update their profile
  
-# Usage
+## Insatllation
    ```bash
    $npm install
    ```
