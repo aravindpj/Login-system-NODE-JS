@@ -15,10 +15,7 @@ Login system is the web application build in ExpressJS,JavaScript and pug templa
    $npm start
     # visit http://localhost:7000/
    ```
-## Demo
-  - Login
-   ![ezgif com-gif-maker](https://user-images.githubusercontent.com/114187011/214571939-139858ba-f011-4726-94d9-5a6e87288997.gif)
-  - Add / Update Profile
+   
     
     
 
