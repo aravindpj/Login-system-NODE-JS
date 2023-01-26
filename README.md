@@ -14,6 +14,7 @@ Login system is the web application build in ExpressJS,JavaScript and pug templa
    ```bash
    $npm start
     # visit http://localhost:7000/
+    # before you start add your MongoDB URL Atlas to config.env file 
    ```
 #Demo
    - Login
